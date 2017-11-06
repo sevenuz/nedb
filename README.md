@@ -27,8 +27,11 @@
 clone the repository
 put the data too your node_module directory
 require('nedb') in your project
-
+```
 maybe the repository will be uploaded to npm later.
+You can also try, requires git:
+```
+npm install --save https://github.com/sevenuz/nedb
 ```
 
 ## API
