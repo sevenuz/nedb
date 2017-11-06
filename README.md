@@ -29,10 +29,11 @@ put the data too your node_module directory
 require('nedb') in your project
 ```
 maybe the repository will be uploaded to npm later.
-You can also try, requires git:
+You can also try:
 ```
 npm install --save https://github.com/sevenuz/nedb
 ```
+requires git
 
 ## API
 It is a subset of MongoDB's API (the most used operations).
