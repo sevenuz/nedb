@@ -9,6 +9,18 @@
   * mkdirp doesn't work, please use fs.filesDir only
 * To use the extended Filesystem:
   * require('nedb').fs
+   ```
+   * fs.filesDir //path for the tabris fs files
+   * fs.cacheDir //path for the tabris fs cache
+   * fs.exists(path, cb, encoding = 'utf-8') //cb(exists,contentString,error)
+   * fs.appendFile(path, text, encoding, cb) //cb(error)
+   * fs.readFile(path, encoding = 'utf-8', cb) //cb(error, contentString)
+   * fs.writeFile(path, data, encoding, cb) //cb(error)
+   * fs.unlink(path, cb) //cb(error)
+   * fs.rename(oldPath, newPath, cb) //cb(error)
+   * fs.mkdirp(path, cb) //cb(error) | DOESN'T CREATE DIRECTORY, throes Error if directory doesn't exist
+   ```
+   The original Tabris-Filesystem fs can be used through ```Imported-Filesystem.tabris.Tabris-Filesystem-Function```
 
 ## Installation
 ```
