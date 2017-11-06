@@ -23,17 +23,21 @@
    The original Tabris-Filesystem fs can be used through ```Imported-Filesystem.tabris.Tabris-Filesystem-Function```
 
 ## Installation
-```
-clone the repository
-put the data too your node_module directory
-require('nedb') in your project
-```
-maybe the repository will be uploaded to npm later.
-You can also try:
+requires git
 ```
 npm install --save https://github.com/sevenuz/nedb
 ```
-requires git
+maybe the repository will be uploaded to npm later.
+Or try this:
+```
+clone the repository
+put the data too your node_module directory
+install dependencies (see nedb/package.json) in node_module
+require('nedb') in your project
+```
+
+
+
 
 ## API
 It is a subset of MongoDB's API (the most used operations).
